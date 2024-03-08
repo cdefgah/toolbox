@@ -10,4 +10,4 @@ mvn clean package
 
 Then navigate to the `target` folder for the jar file.
 
-It is assumed that you have MAVEN installed on your computer.
+It is assumed that you have [MAVEN](https://maven.apache.org/) installed on your computer.
