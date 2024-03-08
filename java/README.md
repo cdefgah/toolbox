@@ -2,4 +2,4 @@
 
 This repository contains useful code snippets for the Java platform.
 
-[Empty Console App](./JavaConsoleApp/README.md)
+[Empty Console App](./JavaConsoleApp/)
