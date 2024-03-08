@@ -12,7 +12,7 @@
         <jdk.version>21</jdk.version>
         <junit.version>5.10.2</junit.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <main-class>toolbox.cdefgah.github.com.MainApplication</main-class>
+        <main-class>com.github.cdefgah.toolbox.MainApplication</main-class>
     </properties>
 
     <build>

@@ -1,4 +1,4 @@
-package toolbox.cdefgah.github.com;
+package com.github.cdefgah.toolbox;
 
 public class MainApplication {
 
