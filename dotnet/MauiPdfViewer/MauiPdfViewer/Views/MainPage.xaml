@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:CustomContentPageBase xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                             xmlns:views="clr-namespace:Views.Base"
+                             xmlns:dx="clr-namespace:DevExpress.Maui.Pdf;assembly=DevExpress.Maui.Pdf"
+                             x:Class="MauiPdfViewer.MainPage"
+                             Shell.NavBarIsVisible="true"
+                             Title="PDF Viewer">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="pdfviewer_open"
+            Command="{Binding Commands.ShowOpenFileDialog, Source={x:Reference pdfViewer}}" />
+        <ToolbarItem IconImageSource="pdfviewer_share"
+            Command="{Binding Commands.ShareDocument, Source={x:Reference pdfViewer}}" />
+    </ContentPage.ToolbarItems>
+
+    <dx:PdfViewer x:Name="pdfViewer" ShowToolbar="True" DocumentSource="{Binding PdfDocumentSource}" />
+
+
+</views:CustomContentPageBase>
